@@ -9,8 +9,8 @@ type Items struct {
 	name string
 }
 
-func (b *Items) doStuff() string {
-	return "this is " + b.name
+func (i *Items) doStuff() string {
+	return "this is " + i.name
 }
 
 type ItemsA struct {
